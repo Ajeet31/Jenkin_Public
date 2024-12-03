@@ -11,8 +11,8 @@ pipeline {
     
     stage('Test-2') {
       steps {
-        sh 'ls -lhtr; pwd'
-      }
+        sh 'ls -lhtr; pwd; echo "versio1"'
+     }
     }
   }
 }
